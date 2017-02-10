@@ -9,3 +9,11 @@ function getMaxValue (a,b){
 	}
 };
 
+// Another version :
+
+function getMaxValue (num1,num2){
+	var log ="";
+	num1 > num2 ? log = `The larger number between ${num1} and ${num2} is : ${num1}` : log = `The larger number between ${num1} and ${num2} is : ${num2}`;
+	return log;  
+}
+

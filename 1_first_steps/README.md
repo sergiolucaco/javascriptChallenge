@@ -1,8 +1,6 @@
 ## Javascript Exercises 
 
-- https://developer.mozilla.org/es/docs/Web/API/Console/log
-
-### Integer Numbers Range
+### Integer Numbers Range `getRange()`
 
 Write a function in Javascript that having two integers `x1` and `x2` returns all the integers between them. If `x2` es lower than `x1` it should return -1
 
@@ -14,11 +12,11 @@ Write a function that writes in the console the multiplication table (from 1 to 
 
 _Hint: https://msdn.microsoft.com/en-us/library/2yfce773(v=vs.94).aspx_
 
-### Multiplications table on column
+### Multiplications table on column, getMultiplicationColumn()
 
 Write a function that writes in the console the multiplication table (in one column) of any number passed as parameter
 
-### Calculation
+### `getMultiple23()` function
 
 Write a program that writes in the console all the multiples of 23 less than 500 and at the end writes the sum of all of them
 
@@ -26,7 +24,7 @@ Write a program that writes in the console all the multiples of 23 less than 500
     391 414 437 460 483
     Sum : 5313
 
-### `max()` function
+### `getMaxValue()` function
 
 Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
 
@@ -98,7 +96,7 @@ Define a function called ​`getFullName`​ that receives a `name` and a `surna
    getFullName( "juanma", "garrido") // "Your full name is "juanma garrido""
 ```
 
-## isNumber(TODO)(TODO)
+## isNumber(TODO)
 
 Define a function called ​`isNumber`​ that receives a value and return `true` if the value received is a number
 
