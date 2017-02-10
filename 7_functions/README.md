@@ -78,7 +78,7 @@ Write a JavaScript function which accepts an argument and returns the type
 Note : There are six possible values that typeof returns: `object`, `boolean`, `function`, `number`, `string`, and `undefined`.
 
 
-## Matrix
+## Matrix(TODO)
 
 Write a JavaScript function which returns the n rows by n columns identity matrix.
 
@@ -97,12 +97,12 @@ Write a JavaScript function which says whether a number is perfect.
 
 > Example : The first perfect number is 6, because 1, 2, and 3 are its proper positive divisors, and 1 + 2 + 3 = 6. Equivalently, the number 6 is equal to half the sum of all its positive divisors: ( 1 + 2 + 3 + 6 ) / 2 = 6. The next perfect number is 28 = 1 + 2 + 4 + 7 + 14. This is followed by the perfect numbers 496 and 8128.
 
-## Factors
+## Factors(TODO)
 
 Write a JavaScript function to compute the factors of a positive integer.
 
 
-## Coinify
+## Coinify(TODO)
 
 Write a JavaScript function to convert an amount to coins.
 
@@ -110,12 +110,12 @@ Write a JavaScript function to convert an amount to coins.
     Here 46 is the amount. and 25, 10, 5, 2, 1 are coins. 
     Output : 25, 10, 10, 1
 
-## getExponent
+## getExponent(TODO)
 
 Write a JavaScript function to compute the value of bn where n is the exponent and b is the bases. Accept b and n from the user and display the result.
 
 
-## Unique Characters
+## Unique Characters(TODO)
 
 Write a JavaScript function to extract unique characters from a string.
 
@@ -123,12 +123,12 @@ Write a JavaScript function to extract unique characters from a string.
     Expected Output : "thequickbrownfxjmpsvlazydg"
 
 
-## Occurences 
+## Occurences(TODO) 
 
 Write a JavaScript function to  get the number of occurrences of each letter in specified string.
 
 
-## Binary Search
+## Binary Search(TODO)
 
 Write a function for searching JavaScript arrays with a binary search.
 Note : A binary search searches by splitting an array into smaller and smaller chunks until it finds the desired value.
@@ -136,18 +136,18 @@ Note : A binary search searches by splitting an array into smaller and smaller c
 Hint: https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/implementing-binary-search-of-an-array
 Hint: https://en.wikipedia.org/wiki/Binary_search_algorithm
 
-## getLargerArrays
+## getLargerArrays(TODO)
 
 Write a JavaScript function that returns array elements larger than a number.
 
 
-## getStringId
+## getStringId(TODO)
 
 Write a JavaScript function that generates a string id (specified length) of random characters.
 
     Sample character list : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 
-## Occurrencers Letter
+## Occurrencers Letter(TODO)
 
 Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.
 
@@ -155,7 +155,7 @@ Write a JavaScript function that accepts two arguments, a string and a letter an
     Expected output : 2 
 
 
-## First not repeated
+## First not repeated(TODO)
 
 Write a JavaScript function to find the first not repeated character.
 
@@ -163,7 +163,7 @@ Write a JavaScript function to find the first not repeated character.
     Expected output : 'e' 
 
 
-## Bubble Sort algorithm
+## Bubble Sort algorithm(TODO)
 
 Write a JavaScript function to apply Bubble Sort algorithm. 
 
@@ -172,21 +172,21 @@ Write a JavaScript function to apply Bubble Sort algorithm.
     Sample array : [12, 345, 4, 546, 122, 84, 98, 64, 9, 1, 3223, 455, 23, 234, 213]
     Expected output : [3223, 546, 455, 345, 234, 213, 122, 98, 84, 64, 23, 12, 9, 4, 1]
 
-## Longest Country
+## Longest Country(TODO)
 
 Write a JavaScript function that accept a list of country names as input and returns the longest country name as output. 
 
     Sample function : Longest_Country_Name(["Australia", "Germany", "United States of America"])
     Expected output : "United States of America"
 
-## Longest palindrome
+## Longest palindrome(TODO)
 
 Write a JavaScript function that returns the longest palindrome in a given string.
 
 > Note: According to Wikipedia "In computer science, the longest palindromic substring or longest symmetric factor problem is the problem of finding a maximum-length contiguous substring of a given string that is also a palindrome. For example, the longest palindromic substring of "bananas" is "anana". The longest palindromic substring is not guaranteed to be unique; for example, in the string "abracadabra", there is no palindromic substring with length greater than three, but there are two palindromic substrings with length three, namely, "aca" and "ada".
 In some applications it may be necessary to return all maximal palindromic substrings (that is, all substrings that are themselves palindromes and cannot be extended to larger palindromic substrings) rather than returning only one substring or returning the maximum length of a palindromic substring.
 
-## doOperation
+## doOperation(TODO)
 
 Write a JavaScript program that accepts three parameters:
 
@@ -200,7 +200,7 @@ Write a JavaScript program that accepts three parameters:
     doOperation( function(a,b) {return a*b;}, 10, 3) // 30
 ```
 
-## Function name
+## Function name(TODO)
 
 Write a JavaScript function to get the function name.
 
