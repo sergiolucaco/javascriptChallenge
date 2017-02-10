@@ -11,7 +11,7 @@ function isPerfectNum(num){
 	var positiveDivisors;
 	var resultOfDivisors;
 	var resultOfDivisorsIncludingNum;
-	var result;
+
 	for (var i = 0 ; i <= num ; i++){
 		if( num % i === 0){ positiveDivisorsIncludingNum.push(i); }
 	}
@@ -20,7 +20,7 @@ function isPerfectNum(num){
 	resultOfDivisors = positiveDivisors.reduce((div1,div2)=> div1 + div2);
 	resultOfDivisorsIncludingNum = positiveDivisorsIncludingNum.reduce((div1,div2)=> div1 + div2);
 
-	resultOfDivisors === num && resultOfDivisorsIncludingNum / 2 === num ? result = `The number ${num} is a perfect num ` : result =  `The number ${num} is not a perfect num `;
+	var result = resultOfDivisors === num && resultOfDivisorsIncludingNum / 2 === num ?  `The number ${num} is a perfect num ` :   `The number ${num} is not a perfect num `;
 
 	return result;
 }
