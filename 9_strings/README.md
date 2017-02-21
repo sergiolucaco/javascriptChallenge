@@ -122,7 +122,7 @@ Write a JavaScript function to *count the occurrence of a substring* in a string
     Output :
     2
 
-### HTML_scape
+### HTML_scape(toDo from here)
 Write a JavaScript function to *escape a HTML* string. 
 
 ```
