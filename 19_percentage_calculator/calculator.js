@@ -50,5 +50,31 @@ $(document).ready(function(){
 			($firstOperator !== 0 && $secondOperator !== 0) ? $result.val(getResult).addClass('done') : $result.val(errorMessage).addClass('error');
 		});
 
+		$('.thirdCalculation').on('click', function(e){
+			e.preventDefault();
+
+			var $firstOperator = +$('.firstOperator-thiRes').val();
+			var $secondOperator = +$('.secondOperator-thiRes').val();
+			var $result = $('.thirdResult');
+
+			function getPercentage (firstOp, secondOp){
+				firstOp = $firstOperator;
+				secondOp = $secondOperator;
+
+				return ( (secondOp - firstOp)/ firstOp * 100).toFixed(2); 
+
+			}
+
+			$result.val(getPercentage);
+
+			if($result.hasClass('done')){
+				$result.removeClass('done');
+			}else if($result.hasClass('error')){
+				$result.removeClass('error')
+			}
+
+			($firstOperator !== 0 && $secondOperator !== 0) ? $result.val(getPercentage).addClass('done') : $result.val(errorMessage).addClass('error');
+		});
+
 });
 
