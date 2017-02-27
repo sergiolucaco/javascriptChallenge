@@ -1,29 +1,28 @@
 $(document).ready(function(){
-	$('.firstCalculation').on('click', function(){
 
-		var $firstOperator = +$('.firstOperator').val();
-		var $secondOperator = +$('.secondOperator').val();
-		var $result = $('.firstResult');
-		var errorMessage = 'Fill all the gaps with a number that you desire !'; 
+	var errorMessage = 'Fill all the gaps with the number that you desire !'; 
 
-		function getPercentage (firstOp, secondOp){	
-			firstOp = $firstOperator;
-			secondOp = $secondOperator;
+		$('.firstCalculation').on('click', function(e){
+			e.preventDefault();
+			var $firstOperator = +$('.firstOperator-fstRes').val();
+			var $secondOperator = +$('.secondOperator-fstRes').val();
+			var $result = $('.firstResult');			
 
-			return firstOp / 100 * secondOp;
-		}
+			function getPercentage (firstOp, secondOp){	
+				firstOp = $firstOperator;
+				secondOp = $secondOperator;
 
-		if($result.hasClass('done')){
-			$result.removeClass('done');
-		}else if($result.hasClass('error')){
-			$result.removeClass('error')
-		}
+				return (firstOp / 100 * secondOp).toFixed(2);
+			}
 
-		if($firstOperator !== 0 && $secondOperator !== 0){
-			$result.val(getPercentage).addClass('done');
-		}else{
-			$result.val(errorMessage).addClass('error');		
-		}
-	});
+			if($result.hasClass('done')){
+				$result.removeClass('done');
+			}else if($result.hasClass('error')){
+				$result.removeClass('error')
+			}
+
+			($firstOperator !== 0 && $secondOperator !== 0) ? $result.val(getPercentage).addClass('done') : $result.val(errorMessage).addClass('error');		
+		});
 
 });
+
